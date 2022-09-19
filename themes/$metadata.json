@@ -1,7 +1,6 @@
 {
   "tokenSetOrder": [
     "global",
-    "theme",
     "nano",
     "amp",
     "connective",

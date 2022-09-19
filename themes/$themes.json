@@ -6,7 +6,6 @@
       "global": "enabled",
       "amp": "disabled",
       "nano": "enabled",
-      "theme": "disabled",
       "connective": "disabled",
       "suncorp": "disabled"
     },
@@ -19,7 +18,6 @@
       "global": "enabled",
       "amp": "enabled",
       "nano": "disabled",
-      "theme": "disabled",
       "connective": "disabled",
       "suncorp": "disabled"
     },
