@@ -1,0 +1,28 @@
+[
+  {
+    "id": "47f23672b644e439c2a3fc0a55fc82e61587e396",
+    "name": "Nano",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "dark": "disabled",
+      "amp": "disabled",
+      "nano": "disabled",
+      "BoQ": "disabled",
+      "theme": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "c0223f4f201d76a64e3dbf3a3e6579f54591c46f",
+    "name": "Base",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "dark": "disabled",
+      "amp": "disabled",
+      "nano": "disabled",
+      "BoQ": "disabled",
+      "theme": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
