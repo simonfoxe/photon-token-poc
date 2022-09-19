@@ -4,5 +4,27 @@
       "value": "{border-radius.none}",
       "type": "borderRadius"
     }
+  },
+  "colors": {
+    "brand": {
+      "indigo": {
+        "value": "#3b4e98",
+        "type": "color"
+      },
+      "lightblue": {
+        "value": "#bccef0",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#406bba",
+        "type": "color"
+      }
+    },
+    "theme": {
+      "primary": {
+        "value": "{colors.brand.indigo}",
+        "type": "color"
+      }
+    }
   }
 }

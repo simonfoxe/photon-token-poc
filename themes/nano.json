@@ -4,5 +4,27 @@
       "value": "{border-radius.xxl}",
       "type": "borderRadius"
     }
+  },
+  "colors": {
+    "theme": {
+      "primary": {
+        "value": "{colors.brand.blue}",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "blue": {
+        "value": "#009ede",
+        "type": "color"
+      },
+      "green": {
+        "value": "#3dd6c7",
+        "type": "color"
+      },
+      "darkblue": {
+        "value": "#004dbd",
+        "type": "color"
+      }
+    }
   }
 }

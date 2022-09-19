@@ -22,5 +22,17 @@
       "suncorp": "disabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "4db87a477bc22c49f3a44b0b135ed4bee190dbf7",
+    "name": "Base",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "nano": "disabled",
+      "amp": "disabled",
+      "connective": "disabled",
+      "suncorp": "disabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]

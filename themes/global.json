@@ -1,24 +1,26 @@
 {
   "colors": {
-    "primary": {
-      "value": "#b11ab5",
-      "type": "color"
-    },
-    "jasper": {
-      "value": "#31839b",
-      "type": "color"
-    },
-    "purple": {
-      "value": "#6f53f9",
-      "type": "color"
-    },
-    "green": {
-      "value": "#219653",
-      "type": "color"
-    },
-    "red": {
-      "value": "#eb5757",
-      "type": "color"
+    "brand": {
+      "orange": {
+        "value": "#dd6e00",
+        "type": "color"
+      },
+      "teal": {
+        "value": "#31839b",
+        "type": "color"
+      },
+      "red": {
+        "value": "#eb5757",
+        "type": "color"
+      },
+      "purple": {
+        "value": "#6f53f9",
+        "type": "color"
+      },
+      "green": {
+        "value": "#219653",
+        "type": "color"
+      }
     },
     "black": {
       "10": {
@@ -56,15 +58,29 @@
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(37deg, {colors.primary} 0%, #FFBB89 100%)",
+        "value": "linear-gradient(37deg, {colors.brand.orange} 0%, #FFBB89 100%)",
         "type": "color"
       },
       "jasper": {
-        "value": "linear-gradient(213deg, {colors.jasper} 0%, #54B1CC 100%)",
+        "value": "linear-gradient(213deg, {colors.brand.teal} 0%, #54B1CC 100%)",
         "type": "color"
       },
       "purple": {
-        "value": "linear-gradient(16deg, {colors.purple} 0%, #d384f1 100%)",
+        "value": "linear-gradient(16deg, {colors.brand.purple} 0%, #d384f1 100%)",
+        "type": "color"
+      }
+    },
+    "theme": {
+      "primary": {
+        "value": "{colors.brand.orange}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.brand.teal}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.brand.red}",
         "type": "color"
       }
     }
@@ -166,5 +182,43 @@
       "value": "30",
       "type": "borderRadius"
     }
+  },
+  "box-shadow": {
+    "md": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2.76px",
+          "blur": "2.21px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "5.32px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.03)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "default": {
+      "value": "{box-shadow.md}",
+      "type": "boxShadow"
+    }
+  },
+  "card": {
+    "value": {
+      "fill": "{colors.black.white}",
+      "verticalPadding": "{spacing.default}",
+      "horizontalPadding": "{spacing.default}",
+      "border": "{colors.black.08}",
+      "borderRadius": "{border-radius.default}",
+      "boxShadow": "{box-shadow.default}"
+    },
+    "type": "composition"
   }
 }
