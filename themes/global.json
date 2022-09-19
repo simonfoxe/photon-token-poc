@@ -210,15 +210,99 @@
       "type": "boxShadow"
     }
   },
-  "card": {
-    "value": {
-      "fill": "{colors.black.white}",
-      "verticalPadding": "{spacing.default}",
-      "horizontalPadding": "{spacing.default}",
-      "border": "{colors.black.08}",
-      "borderRadius": "{border-radius.default}",
-      "boxShadow": "{box-shadow.default}"
+  "components": {
+    "card": {
+      "default": {
+        "value": {
+          "fill": "{colors.black.white}",
+          "verticalPadding": "{spacing.default}",
+          "horizontalPadding": "{spacing.default}",
+          "border": "{colors.black.08}",
+          "borderRadius": "{border-radius.default}",
+          "boxShadow": "{box-shadow.default}"
+        },
+        "type": "composition"
+      }
     },
-    "type": "composition"
+    "button": {
+      "primary": {
+        "bg": {
+          "value": {
+            "fill": "{colors.theme.primary}",
+            "borderRadius": "{border-radius.default}"
+          },
+          "type": "composition"
+        },
+        "fg": {
+          "value": {
+            "fill": "#ffffff"
+          },
+          "type": "composition"
+        }
+      },
+      "primary-outline": {
+        "bg": {
+          "value": {
+            "fill": "",
+            "borderRadius": "{border-radius.default}",
+            "border": "{colors.theme.primary}",
+            "borderWidth": "2"
+          },
+          "type": "composition"
+        },
+        "fg": {
+          "value": {
+            "fill": "{colors.theme.primary}"
+          },
+          "type": "composition"
+        }
+      },
+      "secondary-outline": {
+        "bg": {
+          "value": {
+            "fill": "",
+            "borderRadius": "{border-radius.default}",
+            "border": "{colors.theme.secondary}",
+            "borderWidth": "2"
+          },
+          "type": "composition"
+        },
+        "fg": {
+          "value": {
+            "fill": "{colors.theme.secondary}"
+          },
+          "type": "composition"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "value": {
+            "fill": "{colors.theme.secondary}",
+            "borderRadius": "{border-radius.default}"
+          },
+          "type": "composition"
+        },
+        "fg": {
+          "value": {
+            "fill": "#ffffff"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "theme": {
+    "accent": {
+      "default": {
+        "value": "{colors.theme.primary}",
+        "type": "color"
+      }
+    }
+  },
+  "border-width": {
+    "default": {
+      "value": "2",
+      "type": "borderWidth"
+    }
   }
 }

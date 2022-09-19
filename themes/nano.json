@@ -10,6 +10,10 @@
       "primary": {
         "value": "{colors.brand.blue}",
         "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.brand.green}",
+        "type": "color"
       }
     },
     "brand": {

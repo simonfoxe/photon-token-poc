@@ -24,6 +24,10 @@
       "primary": {
         "value": "{colors.brand.indigo}",
         "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.brand.lightblue}",
+        "type": "color"
       }
     }
   }
