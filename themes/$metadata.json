@@ -2,9 +2,9 @@
   "tokenSetOrder": [
     "global",
     "theme",
-    "dark",
     "nano",
     "amp",
-    "BoQ"
+    "connective",
+    "suncorp"
   ]
 }

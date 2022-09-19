@@ -8,7 +8,7 @@
           "description": "$color.text.fill.on-primary"
         },
         "on-primary": {
-          "value": "{global.colors.black.white}",
+          "value": "{colors.black.white}",
           "type": "color"
         },
         "rise": {
@@ -29,7 +29,7 @@
             "type": "color"
           },
           "weaker": {
-            "value": "{global.colors.black.03}",
+            "value": "{colors.black.03}",
             "type": "color"
           }
         }
@@ -134,7 +134,7 @@
           }
         },
         "dorp-down": {
-          "value": "{global.colors.black.08}",
+          "value": "{colors.black.08}",
           "type": "color"
         }
       },
@@ -154,12 +154,12 @@
           "type": "color"
         },
         "fg": {
-          "value": "{global.colors.black.white}",
+          "value": "{colors.black.white}",
           "type": "color"
         },
         "on-fg": {
           "default": {
-            "value": "{global.colors.black.09}",
+            "value": "{colors.black.09}",
             "type": "color"
           }
         }
@@ -168,11 +168,11 @@
     "separator": {
       "fill": {
         "on-bg": {
-          "value": "{global.colors.black.03}",
+          "value": "{colors.black.03}",
           "type": "color"
         },
         "on-fg": {
-          "value": "{global.colors.black.08}",
+          "value": "{colors.black.08}",
           "type": "color"
         }
       }
@@ -184,7 +184,7 @@
           "type": "color"
         },
         "unfill": {
-          "value": "{global.colors.black.09}",
+          "value": "{colors.black.09}",
           "type": "color"
         },
         "accent": {
@@ -198,15 +198,15 @@
     "graph": {
       "fill": {
         "primary": {
-          "value": "{global.colors.gradient.primary}",
+          "value": "{colors.gradient.primary}",
           "type": "color"
         },
         "palette-01": {
-          "value": "{global.colors.gradient.jasper}",
+          "value": "{colors.gradient.jasper}",
           "type": "color"
         },
         "palette-02": {
-          "value": "{global.colors.gradient.purple}",
+          "value": "{colors.gradient.purple}",
           "type": "color"
         }
       }

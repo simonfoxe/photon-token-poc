@@ -36,106 +36,78 @@
       "02": {
         "value": "#949494",
         "type": "color"
+      },
+      "03": {
+        "value": "#b5b5b5",
+        "type": "color"
+      },
+      "08": {
+        "value": "#f4f4f4",
+        "type": "color"
+      },
+      "09": {
+        "value": "#f6f6f6",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "primary": {
+        "value": "linear-gradient(37deg, {colors.primary} 0%, #FFBB89 100%)",
+        "type": "color"
+      },
+      "jasper": {
+        "value": "linear-gradient(213deg, {colors.jasper} 0%, #54B1CC 100%)",
+        "type": "color"
+      },
+      "purple": {
+        "value": "linear-gradient(16deg, {colors.purple} 0%, #d384f1 100%)",
+        "type": "color"
       }
     }
   },
-  "global": {
-    "colors": {
-      "black": {
-        "03": {
-          "value": "#b5b5b5",
-          "type": "color"
-        },
+  "opacity": {
+    "green": {
+      "0": {
         "08": {
-          "value": "#f4f4f4",
-          "type": "color"
-        },
-        "09": {
-          "value": "#f6f6f6",
-          "type": "color"
-        },
-        "white": {
-          "value": "#ffffff",
-          "type": "color"
-        }
-      },
-      "gradient": {
-        "primary": {
-          "value": "linear-gradient(37deg, {colors.primary} 0%, #FFBB89 100%)",
-          "type": "color"
-        },
-        "jasper": {
-          "value": "linear-gradient(213deg, {colors.jasper} 0%, #54B1CC 100%)",
-          "type": "color"
-        },
-        "purple": {
-          "value": "linear-gradient(16deg, {colors.purple} 0%, #d384f1 100%)",
+          "value": "#21965314",
           "type": "color"
         }
       }
     },
-    "op": {
-      "green": {
-        "0": {
-          "08": {
-            "value": "#21965314",
-            "type": "color"
-          }
-        }
-      },
-      "red": {
-        "0": {
-          "08": {
-            "value": "#eb575714",
-            "type": "color"
-          }
-        }
-      },
-      "primary": {
-        "0": {
-          "16": {
-            "value": "#ee6c4d29",
-            "type": "color"
-          }
-        }
-      },
-      "pruple": {
-        "0": {
-          "16": {
-            "value": "#6f53f929",
-            "type": "color"
-          }
-        }
-      },
-      "jasper": {
-        "0": {
-          "16": {
-            "value": "#31839b29",
-            "type": "color"
-          }
+    "red": {
+      "0": {
+        "08": {
+          "value": "#eb575714",
+          "type": "color"
         }
       }
     },
-    "border-radius": {
-      "sm": {
-        "value": "6",
-        "type": "borderRadius"
-      },
-      "md": {
-        "value": "10",
-        "type": "borderRadius"
-      },
-      "lg": {
-        "value": "16",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "20",
-        "type": "borderRadius"
-      },
-      "xxl": {
-        "value": "30",
-        "type": "borderRadius"
+    "primary": {
+      "0": {
+        "16": {
+          "value": "#ee6c4d29",
+          "type": "color"
+        }
+      }
+    },
+    "purple": {
+      "0": {
+        "16": {
+          "value": "#6f53f929",
+          "type": "color"
+        }
+      }
+    },
+    "jasper": {
+      "0": {
+        "16": {
+          "value": "#31839b29",
+          "type": "color"
+        }
       }
     }
   },
@@ -163,7 +135,7 @@
   },
   "border-radius": {
     "default": {
-      "value": "{global.border-radius.md}",
+      "value": "{border-radius.md}",
       "type": "borderRadius"
     },
     "none": {
@@ -173,16 +145,26 @@
     "xs": {
       "value": "4",
       "type": "borderRadius"
-    }
-  },
-  "theme": {
-    "global": {
-      "border-radius": {
-        "default": {
-          "value": "{border-radius.default}",
-          "type": "borderRadius"
-        }
-      }
+    },
+    "sm": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "10",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "xxl": {
+      "value": "30",
+      "type": "borderRadius"
     }
   }
 }
