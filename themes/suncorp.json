@@ -30,7 +30,7 @@
     },
     "theme": {
       "primary": {
-        "value": "#1ce400",
+        "value": "{colors.brand.sun2020yellow}",
         "type": "color"
       },
       "secondary": {
