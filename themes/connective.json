@@ -1,1 +1,50 @@
-{}
+{
+  "border-radius": {
+    "default": {
+      "value": "{border-radius.md}",
+      "type": "borderRadius"
+    }
+  },
+  "colors": {
+    "brand": {
+      "blue": {
+        "value": "#448ecc",
+        "type": "color"
+      },
+      "darkblue": {
+        "value": "#1e4164",
+        "type": "color"
+      },
+      "lightblue": {
+        "value": "#4d93ce",
+        "type": "color"
+      }
+    },
+    "theme": {
+      "primary": {
+        "value": "{colors.brand.blue}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.brand.darkblue}",
+        "type": "color"
+      }
+    }
+  },
+  "box-padding": {
+    "default": {
+      "value": "32",
+      "type": "spacing"
+    }
+  },
+  "font-family": {
+    "heading": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    },
+    "body": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    }
+  }
+}

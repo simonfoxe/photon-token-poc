@@ -45,20 +45,14 @@
       "type": "composition"
     }
   },
-  "typography": {
+  "font-family": {
     "heading": {
-      "value": {
-        "fontFamily": "RM Neue",
-        "fontWeight": "Bold"
-      },
-      "type": "typography"
+      "value": "RM Neue",
+      "type": "fontFamilies"
     },
     "body": {
-      "value": {
-        "fontFamily": "RM Neue",
-        "fontWeight": "Regular"
-      },
-      "type": "typography"
+      "value": "RM Neue",
+      "type": "fontFamilies"
     }
   }
 }
