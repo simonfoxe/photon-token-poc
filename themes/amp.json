@@ -36,5 +36,21 @@
       "value": "40",
       "type": "spacing"
     }
+  },
+  "typography": {
+    "heading": {
+      "value": {
+        "fontFamily": "Hurme Geometric Sans 1",
+        "fontWeight": "Bold"
+      },
+      "type": "typography"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "Open Sans",
+        "fontWeight": "Regular"
+      },
+      "type": "typography"
+    }
   }
 }

@@ -326,5 +326,23 @@
       "value": "40",
       "type": "spacing"
     }
+  },
+  "typography": {
+    "heading": {
+      "value": {
+        "fontFamily": "Courier New",
+        "fontWeight": "Bold"
+      },
+      "type": "typography"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "Courier New",
+        "fontWeight": "Regular",
+        "fontSize": "16",
+        "lineHeight": "140%"
+      },
+      "type": "typography"
+    }
   }
 }

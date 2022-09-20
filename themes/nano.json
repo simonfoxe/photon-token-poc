@@ -44,5 +44,21 @@
       },
       "type": "composition"
     }
+  },
+  "typography": {
+    "heading": {
+      "value": {
+        "fontFamily": "RM Neue",
+        "fontWeight": "Bold"
+      },
+      "type": "typography"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "RM Neue",
+        "fontWeight": "Regular"
+      },
+      "type": "typography"
+    }
   }
 }
