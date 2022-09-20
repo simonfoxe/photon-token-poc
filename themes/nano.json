@@ -30,5 +30,19 @@
         "type": "color"
       }
     }
+  },
+  "box-padding": {
+    "default": {
+      "value": "36",
+      "type": "spacing"
+    }
+  },
+  "card": {
+    "default": {
+      "value": {
+        "verticalPadding": "8"
+      },
+      "type": "composition"
+    }
   }
 }

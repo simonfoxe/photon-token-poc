@@ -30,5 +30,11 @@
         "type": "color"
       }
     }
+  },
+  "box-padding": {
+    "default": {
+      "value": "40",
+      "type": "spacing"
+    }
   }
 }

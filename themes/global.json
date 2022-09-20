@@ -215,8 +215,8 @@
       "default": {
         "value": {
           "fill": "{colors.black.white}",
-          "verticalPadding": "{spacing.default}",
-          "horizontalPadding": "{spacing.default}",
+          "verticalPadding": "{box-padding.default}",
+          "horizontalPadding": "{box-padding.default}",
           "border": "{colors.black.08}",
           "borderRadius": "{border-radius.default}",
           "boxShadow": "{box-shadow.default}"
@@ -303,6 +303,28 @@
     "default": {
       "value": "2",
       "type": "borderWidth"
+    }
+  },
+  "box-padding": {
+    "default": {
+      "value": "{box-padding.md}",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "10",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "30",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "40",
+      "type": "spacing"
     }
   }
 }
