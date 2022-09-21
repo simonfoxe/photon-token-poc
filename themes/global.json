@@ -73,6 +73,12 @@
         "value": "{colors.brand.red}",
         "type": "color"
       }
+    },
+    "headings": {
+      "heading1": {
+        "value": "{colors.theme.primary}",
+        "type": "other"
+      }
     }
   },
   "gradients": {
@@ -250,14 +256,6 @@
           },
           "type": "composition"
         }
-      }
-    }
-  },
-  "theme": {
-    "accent": {
-      "default": {
-        "value": "{colors.theme.primary}",
-        "type": "color"
       }
     }
   },
