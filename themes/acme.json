@@ -1,0 +1,70 @@
+{
+  "border-radius": {
+    "default": {
+      "value": "{border-radius.md}",
+      "type": "borderRadius"
+    }
+  },
+  "colors": {
+    "brand": {
+      "sun2020yellow": {
+        "value": "red",
+        "type": "color"
+      },
+      "heritagegreen": {
+        "value": "orange",
+        "type": "color"
+      },
+      "": {
+        "value": "#db2e14",
+        "type": "color"
+      },
+      "sun2020lightgreen": {
+        "value": "#b8c339",
+        "type": "color"
+      },
+      "sun2020lightestgreen": {
+        "value": "#e5f3f2",
+        "type": "color"
+      }
+    },
+    "theme": {
+      "primary": {
+        "value": "{colors.brand.sun2020yellow}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.brand.heritagegreen}",
+        "type": "color"
+      }
+    }
+  },
+  "box-padding": {
+    "default": {
+      "value": "32",
+      "type": "spacing"
+    }
+  },
+  "font-family": {
+    "heading": {
+      "value": "GT Walsheim Pro",
+      "type": "fontFamilies"
+    },
+    "body": {
+      "value": "GT Walsheim Pro",
+      "type": "fontFamilies"
+    }
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "fg": {
+          "value": {
+            "fill": "{colors.white}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
