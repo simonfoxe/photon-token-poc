@@ -63,5 +63,18 @@
       "acme": "disabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "48b44701d0ef0ee0da7ab28b20cfda2c7837e9be",
+    "name": "acme",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "nano": "disabled",
+      "amp": "disabled",
+      "connective": "disabled",
+      "suncorp": "disabled",
+      "acme": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
