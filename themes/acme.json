@@ -8,11 +8,11 @@
   "colors": {
     "brand": {
       "sun2020yellow": {
-        "value": "red",
+        "value": "#08e337",
         "type": "color"
       },
       "heritagegreen": {
-        "value": "orange",
+        "value": "#07f",
         "type": "color"
       },
       "": {
