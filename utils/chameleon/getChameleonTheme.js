@@ -39,7 +39,7 @@ export const getChameleonTheme = async (files, theme = '') => {
     const themeMetaData = themeFile.find(({ name }) => name === theme);
 
     const partialsToLoad = tokenSetOrder.filter(
-      themeName => themeMetaData.selectedTokenSets[themeName] === 'enabled'
+      themeName => themeMetaData.selectedTokenSets[themeName] !== 'disabled'
     );
 
     const sortedPartialsToLoad = sortArray(filePaths, tokenSetOrder).filter(
