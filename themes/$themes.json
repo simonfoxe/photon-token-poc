@@ -3,23 +3,15 @@
     "id": "4db87a477bc22c49f3a44b0b135ed4bee190dbf7",
     "name": "base",
     "selectedTokenSets": {
-      "global": "enabled",
       "nano": "disabled",
       "amp": "disabled",
       "connective": "disabled",
-      "suncorp": "disabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "c0223f4f201d76a64e3dbf3a3e6579f54591c46f",
-    "name": "amp",
-    "selectedTokenSets": {
-      "global": "enabled",
-      "amp": "enabled",
-      "nano": "disabled",
-      "connective": "disabled",
-      "suncorp": "disabled"
+      "suncorp": "disabled",
+      "global/color": "enabled",
+      "global/typography": "enabled",
+      "global/spacing": "enabled",
+      "global/components/card": "enabled",
+      "global/components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -27,11 +19,15 @@
     "id": "47f23672b644e439c2a3fc0a55fc82e61587e396",
     "name": "nano",
     "selectedTokenSets": {
-      "global": "enabled",
       "amp": "disabled",
-      "nano": "enabled",
+      "nano": "source",
       "connective": "disabled",
-      "suncorp": "disabled"
+      "suncorp": "disabled",
+      "global/color": "enabled",
+      "global/typography": "enabled",
+      "global/spacing": "enabled",
+      "global/components/card": "enabled",
+      "global/components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -39,11 +35,31 @@
     "id": "5b22cdde9136f4fe6d3bb3d83acf20c7c5708e8b",
     "name": "connective",
     "selectedTokenSets": {
-      "global": "enabled",
       "nano": "disabled",
       "amp": "disabled",
-      "connective": "enabled",
-      "suncorp": "disabled"
+      "connective": "source",
+      "suncorp": "disabled",
+      "global/color": "enabled",
+      "global/typography": "enabled",
+      "global/spacing": "enabled",
+      "global/components/card": "enabled",
+      "global/components/button": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "c0223f4f201d76a64e3dbf3a3e6579f54591c46f",
+    "name": "amp",
+    "selectedTokenSets": {
+      "amp": "source",
+      "nano": "disabled",
+      "connective": "disabled",
+      "suncorp": "disabled",
+      "global/color": "enabled",
+      "global/typography": "enabled",
+      "global/spacing": "enabled",
+      "global/components/card": "enabled",
+      "global/components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -51,11 +67,15 @@
     "id": "e2c2bac629e364b80eb00122d781224faf425f95",
     "name": "suncorp",
     "selectedTokenSets": {
-      "global": "enabled",
       "nano": "disabled",
       "amp": "disabled",
       "connective": "disabled",
-      "suncorp": "enabled"
+      "suncorp": "source",
+      "global/color": "enabled",
+      "global/typography": "enabled",
+      "global/spacing": "enabled",
+      "global/components/card": "enabled",
+      "global/components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   }
