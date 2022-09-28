@@ -16,7 +16,7 @@ jobs:
         id: node-cache
         with:
           path: node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/package-lock.lock') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
       - name: Configure AWS credentials
@@ -34,11 +34,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: create build folder
+      - name: create themes folder
         run: mkdir builtThemes
 
-      - name: Build
+      - name: build themes
         run: npm run deploy
 
-      - name: Deploy
+      - name: Deploy to s3
         run: aws s3 sync ./builtThemes s3://nano-static-files-dev/themes-test
