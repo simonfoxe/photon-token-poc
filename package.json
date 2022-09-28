@@ -1,0 +1,25 @@
+{
+  "name": "photon-token-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node --experimental-specifier-resolution=node ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonfoxe/photon-token-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonfoxe/photon-token-poc/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/simonfoxe/photon-token-poc#readme",
+  "devDependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2"
+  }
+}
