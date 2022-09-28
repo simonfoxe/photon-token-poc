@@ -43,13 +43,9 @@ export const getChameleonTheme = async (files, theme = '') => {
     );
 
     const sortedPartialsToLoad = sortArray(filePaths, tokenSetOrder).filter(
-      sortedFile =>
-        partialsToLoad.includes(
-          sortedFile
-            .split('/')
-            .pop()
-            .replace('.json', '')
-        )
+      sortedFile => partialsToLoad.includes(
+        sortedFile.replace('.json', '')
+      )
     );
 
     return sortedPartialsToLoad.reduce(

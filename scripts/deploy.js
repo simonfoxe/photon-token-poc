@@ -13,13 +13,26 @@ const __dirname = path.dirname(__filename);
 
 const { getBuiltThemeFiles } = chameleon;
 
-const getFiles = () => {
-  const path = resolve(__dirname, '../themes');
-  return fs.readdirSync(path);
+const getFiles = (localPath, root = '') => {
+  const files = fs.readdirSync(localPath);
+  const finalFiles = [];
+  files.forEach(file => {
+    const filePath = resolve(localPath, file);
+    if (fs.lstatSync(filePath).isDirectory()) {
+
+      const children = getFiles(filePath, `${root}${file}/`);
+      finalFiles.push(...children);
+      return;
+    }
+    finalFiles.push(`${root}${file}`)
+  });
+
+  return finalFiles;
 };
 
 const buildThemeFiles = async () => {
-  const files = getFiles();
+  const path = resolve(__dirname, '../themes');
+  const files = getFiles(path);
   const mergedJson = files.reduce(
     (acc, file) => ({
       ...acc,
