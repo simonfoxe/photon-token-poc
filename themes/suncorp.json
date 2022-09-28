@@ -8,7 +8,7 @@
   "colors": {
     "brand": {
       "sun2020yellow": {
-        "value": "purple",
+        "value": "#ffcd05",
         "type": "color"
       },
       "heritagegreen": {
