@@ -1,9 +1,13 @@
 {
   "tokenSetOrder": [
-    "global",
+    "global/color",
+    "global/spacing",
+    "global/typography",
+    "global/components/button",
+    "global/components/card",
     "nano",
-    "amp",
     "connective",
+    "amp",
     "suncorp"
   ]
 }

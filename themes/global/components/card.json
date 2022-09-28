@@ -1,0 +1,17 @@
+{
+  "components": {
+    "card": {
+      "default": {
+        "value": {
+          "fill": "{colors.white}",
+          "verticalPadding": "{box-padding.default}",
+          "horizontalPadding": "{box-padding.default}",
+          "border": "{colors.grey.08}",
+          "borderRadius": "{border-radius.default}",
+          "boxShadow": "{box-shadow.default}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

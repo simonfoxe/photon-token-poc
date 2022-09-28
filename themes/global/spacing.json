@@ -1,0 +1,113 @@
+{
+  "spacing": {
+    "default": {
+      "value": "{spacing.md}",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "10",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "30",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "40",
+      "type": "spacing"
+    }
+  },
+  "border-radius": {
+    "default": {
+      "value": "{border-radius.md}",
+      "type": "borderRadius"
+    },
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "xs": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "10",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "xxl": {
+      "value": "30",
+      "type": "borderRadius"
+    }
+  },
+  "box-shadow": {
+    "md": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2.76px",
+          "blur": "2.21px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.02)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "5.32px",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.03)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "default": {
+      "value": "{box-shadow.md}",
+      "type": "boxShadow"
+    }
+  },
+  "border-width": {
+    "default": {
+      "value": "2",
+      "type": "borderWidth"
+    }
+  },
+  "box-padding": {
+    "default": {
+      "value": "{box-padding.md}",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "10",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "30",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "40",
+      "type": "spacing"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "typography": {
+    "heading": {
+      "value": {
+        "fontFamily": "{font-family.heading}",
+        "fontWeight": "Bold"
+      },
+      "type": "typography"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{font-family.body}",
+        "fontWeight": "Regular",
+        "fontSize": "16",
+        "lineHeight": "140%"
+      },
+      "type": "typography"
+    },
+    "meta": {
+      "value": {
+        "fontFamily": "{font-family.body}",
+        "fontWeight": "{font-weight.body}",
+        "lineHeight": "",
+        "fontSize": "14"
+      },
+      "type": "typography"
+    }
+  },
+  "font-family": {
+    "heading": {
+      "value": "Courier New",
+      "type": "fontFamilies"
+    },
+    "body": {
+      "value": "Courier New",
+      "type": "fontFamilies"
+    }
+  },
+  "font-weight": {
+    "heading": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "body": {
+      "value": "Regular",
+      "type": "fontWeights"
+    }
+  }
+}
